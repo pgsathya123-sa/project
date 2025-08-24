@@ -1,0 +1,672 @@
+.ok {
+    display: flex;
+    justify-content: space-between;
+    height: 150vh;
+    border: 0.5px solid;
+    padding-top: 6rem;
+    background-image: url(joyful-graduation-day-stockcake.jpg);
+    background-size: cover;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.849), skyblue);
+   height: 190vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 99vw;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    z-index: -1;
+}
+.a{
+    margin-left: 3rem;
+}
+.b{
+    margin-right: 3rem;
+    border: 1px solid;
+    padding: 2rem;
+    font-size: 1rem;
+    height: 135vh;
+   border-radius: 3rem;
+   position: relative;
+   top: 3.5rem;
+   background-color: rgba(0, 0, 0, 0.477);
+}
+.reg {
+    padding: 1.2rem;
+    width: 300px;
+    text-align: center;
+    margin-left: 2.5rem;
+    background-color: rgba(255, 0, 0, 0.534);
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    color: beige;
+    font-style: italic;
+}
+.d{
+   width: 400px; 
+   height: 45px;
+   margin-bottom: 1.8rem;
+   font-size: 1.5rem;
+   color: whitesmoke;
+   border-radius: 3rem;
+}
+.logoo {
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 2rem;
+     background-color: aliceblue;
+     margin-top: 0.3rem;
+}
+.fatch {
+    font-size: 5rem;
+     margin-top: 4rem;
+     margin-bottom: 1rem;
+     color: #fff;
+}
+.con {
+    color: rgba(255, 255, 0, 0.792);
+    font-size: 3rem;font-style: italic;
+    margin-bottom: 3.5rem;
+    animation-name: pogoo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+     @keyframes pogoo {
+        from {
+           font-style : italic;
+        }
+        to {
+           font-style: oblique;
+           transform: translateX(170px);
+           color:rgba(255, 68, 0, 0.861);
+        }
+    }
+
+.fa-location-dot {
+   font-size: 2rem;
+}
+.divv {
+    border: 1px solid;
+    padding: 2rem;
+    border-radius: 0.7rem;
+    margin-bottom: 4rem;
+     background-color: navy;
+    color: whitesmoke;
+    width: 50vw;
+    animation-name: high;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+ @keyframes high {
+        from{
+            background-color: navy;
+        }
+        to {
+            background-color:  blueviolet;
+            transform: skewX(-10deg) rotatey(30deg) translate(20px);
+            color: yellow;
+        }
+    }
+.Aboard {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 1rem;
+    animation-name: abo;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes abo {
+    from{
+        color: white;
+    }
+    to {
+        color: red;
+        transform: translate(50px) ;
+    }
+}
+.a1 {
+    margin-bottom: 1rem;
+}
+.c:hover .d {
+    visibility: visible;
+    border: 1px solid white;
+    border-radius: 40px;
+    
+}
+::placeholder {
+    font-style: italic;
+   color: rgba(245, 245, 220, 0.559);
+   font-size: medium;
+}
+.reg:hover{
+  background-color:rgba(255, 255, 0, 0.813);
+  color: black;
+}
+.c:hover {
+   transform: scale(0.8);
+    transition-duration: 2s;
+}
+.c:hover .reg {
+    background-color: rgba(255, 255, 0, 0.831);
+    color: #222;
+}
+label {
+    color: aliceblue;
+    font-size: larger;
+}
+.c:hover label {
+    font-size: larger;
+    color: yellow;
+    transform: translateX(250px);
+    transition-duration: 2s;
+}
+.ok:hover .Aboard {
+    color: red;
+    transform: scaleY(1.2);
+    transition-duration: 2s;
+}
+.ok:hover .divv {
+    transform: skewX(-10deg);
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
+.d {
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.d:hover {
+    color: azure;
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+section-heading {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section-heading h2 {
+    font-size: 1.8em;
+    color: #0b1032;
+    font-weight: bold;
+}
+
+.underline {
+    width: 70px;
+    height: 3px;
+    background-color: #f9c91e;
+    margin: 8px auto;
+    border-radius: 3px;
+}
+
+/* ======== Universities Section ======== */
+.universities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    width: 70vw;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column h3 {
+    font-size: 1.5em;
+    color: #0b1032;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blue li {
+    margin: 10px 0;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #0b1032;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.blue li {
+    background-color: #e5f0ff;
+}
+
+.pink li {
+    background-color: #fde6eb;
+    margin: 10px 0;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #0b1032;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.section-heading {
+    text-align: center;
+    padding-top: 5rem;
+}
+/* ======== Management Section ======== */
+.management {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+   color: white;
+    gap: 70px;
+    margin: auto;
+}
+
+
+
+.management .text h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.management .text p {
+    font-size: 0.95em;
+    line-height: 1.6em;
+}
+
+.management .image {
+    flex-shrink: 0;
+}
+
+.management .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+.dark-bg {
+    background-color: #051650;
+}
+
+.blue-bg {
+    background-color: #0c67a1;
+}
+
+/* ======== Responsive ========
+@media (max-width: 768px) {
+    .universities {
+        grid-template-columns: 1fr;
+    }
+    .management {
+        flex-direction: column;
+        text-align: center;
+    }
+    .management .image {
+        margin-bottom: 20px;
+    }
+} */
+
+.universities{
+    margin-bottom: 25vh ;
+}
+
+.management{
+    border-top: 80px solid white;
+}
+
+/* ashok */
+
+.Mission {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pp {
+    width: 350px;
+    font-style: italic;
+    margin-right: 9rem;
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 1.4rem;
+}
+.Mission:hover .pp{
+transform: translateY(-150px) scaleX(1.1) ; 
+  padding: 2rem;
+  border-radius: 10%;
+  color:orange;
+  animation-name: para;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-range-start: bottom;
+}
+@keyframes para {
+    from {
+     color: orangered;
+    }
+    to {
+        color: greenyellow;
+        transform: translateY(-10px);
+        transition-duration: 8s;
+        transition-delay: 0.3s;
+        background-color: red;
+    }
+}
+.frame {
+    margin-left: 6rem;
+    height: 300px;
+    width: 400px;
+    border: 8px double;
+    border-radius: 20px;
+}
+.Mission:hover .frame {
+    transform: rotate(360deg) scale(1.2) translateY(-100px);
+    transition-duration: 2s;
+    border-radius: 50%;
+      animation-name: para;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+.bangalore {
+    background-color: white;
+    color: black;
+   padding-top: 5rem;
+   font-weight: bolder;
+   font-size: 2rem;
+}
+.matter {
+   margin-top: 10rem;
+   color: rgba(0, 0, 255, 0.566);
+}
+.pp:hover {
+    transform: translateY(-8px) scale(0.9);
+}
+.OG {
+    background-color: rgba(135, 206, 250, 0.411);
+    height: 130vh;
+    width: 98vw;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-1 {
+    text-align: center;
+    padding: 3rem;
+    font-weight: bolder;font-size: 1.4rem;
+}
+.chennai {
+    width: 40vw;
+    margin-left: 5rem;
+}
+.chennai:hover {
+    color: rgba(255, 0, 0, 0.594);
+    font-weight: bold;
+}
+.image-1 {
+    margin-left: 9rem;
+}
+.text-2 {
+display: flex;
+}
+.oop {
+ /* border-radius: 50px; */
+ /* border: 5px double lightskyblue; */
+ /* background-image: linear-gradient(to top, rgba(255, 0, 0, 0.721)); */
+ transition-duration: 2s;
+}
+.text-2:hover .oop{
+     transform:  translateX(-80px) scale(0.8);
+    transition-duration: 4s;
+}
+.text-2:hover .chennai {
+    transform: translateX(30px);
+}
+
+/* Sathya */
+ .photo {
+    box-sizing: border-box;
+    width: 1000px;
+    height: auto;
+    padding-top: 8rem;
+     margin-left: 5rem;
+ /* margin-right: auto; */
+ }
+ .name {
+    font-size: 2rem;
+  padding-left: 8rem;
+ }
+.picture {
+    box-sizing: border-box;
+    padding-top: 3rem;
+}
+
+ /* Sathya 2 */
+.body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  width: 97vw;
+  color: #fff;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-top: 3rem;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Underline style common to both headings */
+.tag {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  position: relative;
+}
+.tag::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 8px auto;
+  background-color: #f1c40f; /* default yellow */
+  border-radius: 2px;
+}
+
+/* Why Fateh section styling */
+.why-fateh {
+  background-color: #005fac; /* deep blue */
+  margin-bottom: 40px;   /* space between sections */
+    padding: 60px 20px;
+}
+.why-fateh .description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.why-fateh .features {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+}
+.why-fateh .features li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.displayy {
+    display: flex;
+    justify-content: space-around;
+}
+.img11 {
+    border-radius: 30px;
+}
+
+/* Conquer Your Dreams section styling */
+.conquer-dreams {
+  background-color: #ffcc00; /* golden yellow */
+    padding: 60px 20px;
+}
+.conquer-dreams h2::after {
+  background-color: red;   /* red underline here */
+}
+.conquer-dreams .description {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 24px;
+}
+.conquer-dreams .btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #005fac;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.conquer-dreams .btn:hover {
+  background-color: #004080;
+}
+
+ .potla {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+ .sai11 {
+   border: 3px solid rgba(255, 255, 255, 0.386);
+  color: rgba(255, 255, 255, 0.539);
+   border-radius: 20px;
+   margin-top: 0.8rem;
+   padding: 0.4rem;
+   width: 8rem;
+    text-align: center;
+  height: fit-content;
+  background-color: #ffffff5b;
+}
+.sai12 {
+   border: 3px solid rgba(255, 255, 255, 0.393);
+  color: rgba(255, 255, 255, 0.511);
+   border-radius: 20px;
+    margin-top: 0.8rem;
+    padding: 0.4rem;
+    width: 8rem;
+     text-align: center;
+  height: fit-content;
+   background-color: #ffffff56;
+}
+.sai13 {
+   border: 3px solid rgba(255, 255, 255, 0.103);
+  color: rgba(255, 255, 255, 0.557);
+   border-radius: 20px;
+    margin-top: 0.8rem;
+    padding: 0.4rem;
+    width: 8rem;
+     text-align: center;
+  height: fit-content;
+   background-color: #ffffff5e;
+}
+.sai14 {
+   border: 3px solid rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.514);
+   border-radius: 20px;
+    margin-top: 0.8rem;
+    padding: 0.4rem;
+    width: 8rem;
+  height: fit-content;
+   background-color: #ffffff5a;
+    text-align: center;
+}
+.sai15 {
+   border: 3px solid rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.509);
+   border-radius: 20px;
+    margin-top: 0.8rem;
+    padding: 0.4rem;
+    width: 8rem;
+    text-align: center;
+  height: fit-content;
+   background-color: #ffffff5f;
+} 
+
+.headd {
+    width: 99vw;
+    height: 5rem;
+    padding-right: 2rem;
+    /* background-color: rgb(0, 0, 128); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0) );
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+}
+.headd:hover .potla{
+     transform: translateX(-5px) scaleX(1.2);
+     transition-duration: 2s;
+     background-color: rgba(255, 255, 255, 0.676);
+}
+/* #sai2 {
+    padding-top: 5rem;
+}
+#sai3 {
+    padding-top: 10rem;
+}
+#sai4 {
+     padding-top: 6rem;
+} 
+#sai5 {
+    padding-top: 8rem;
+} */
+ .lg {
+    padding-left: 4rem;
+    width: 15rem;
+    padding-top: 0.4em;
+    color: yellow;
+    /* border: 1px solid;
+    padding: 0.2rem;
+    border-radius: 20%;
+    background-color: white; */
+ }
+
+  footer {
+      background: #00264d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
